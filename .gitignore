@@ -2,5 +2,7 @@ import wx
 
 class MyFrame(wx.Frame):
   def _init_(self):
-      super()._init_(None, title = GamesX12, size = (300,200))
-      panel = wx.Panel(parent=self)
+      super()._init_(None, title = GamesX12, size = (300,300))
+      self.panel = wx.Panel(parent=self)
+      self.bmps = [https://scratch.mit.edu/projects/1169831854/fullscreen/,]
+      
